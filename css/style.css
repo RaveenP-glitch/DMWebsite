@@ -369,7 +369,7 @@ ul.btn li:last-child {
 .header {
      width: 100%;
      padding: 30px 30px;
-     border-bottom: #e8e9ee solid 10px;
+     border-bottom: #e8e9ee solid 0px;
      background-color: #13110e;
 }
 
@@ -388,7 +388,7 @@ ul.btn li:last-child {
      top: -30px;
      background: url(../images/top_head.png);
      background-repeat: no-repeat;
-     border-right: #e8e9ee solid 10px;
+     border-right: #e8e9ee solid 0px;
 }
 
 
@@ -758,6 +758,18 @@ ul.btn li:last-child {
      padding: 23px 0px 0px 0px;
      text-align: left;
 }
+
+.about_Carousel .test_box h6 {
+     font-size: 20px;
+     color: #1d1c1c;
+     line-height: 14px;
+     display: block;
+     text-align: center;
+     font-weight: 200;
+     padding: 23px 0px 0px 0px;
+     text-align: left;
+}
+
 
 .about_Carousel .test_box i {
      text-align: left;
