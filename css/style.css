@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -72,10 +73,12 @@ h6 {
 }
 
 h1 {
+     font-family: 'Josefin Sans', sans-serif;
      font-size: 24px;
 }
 
 h2 {
+     font-family: 'Josefin Sans', sans-serif;
      font-size: 22px;
 }
 
@@ -355,21 +358,23 @@ ul.btn li:last-child {
      padding: 8px 39px;
      color: #fff;
      font-size: 16px;
-     background-color: #1cbd32;
+     background-color: black;
+     border: 1px solid green;
      text-transform: uppercase;
-     margin-top: -10px;
+     margin-top: -14px;
      margin-left: 30px;
+     border-radius: 5px;
 }
 
 .get_btn a:hover {
-     color: #fff;
+     color: #000;
      background-color: #d2d1d6;
 }
 
 .header {
      width: 100%;
      padding: 30px 30px;
-     border-bottom: #e8e9ee solid 0px;
+     border-bottom: #1cbd32 solid 0px;
      background-color: #13110e;
 }
 
@@ -428,6 +433,7 @@ ul.btn li:last-child {
 }
 
 .text-bg a {
+     font-family: 'Josefin Sans', sans-serif;
      font-size: 17px;
      background-color: transparent;
      color: #fff;
@@ -777,7 +783,7 @@ ul.btn li:last-child {
      margin-bottom: -12px;
      margin-right: 20px;
      margin-top: -91px;
-     box-shadow: #ddd 0px 0px 10px 0px;
+
      border-radius: 122px;
 }
 
@@ -846,6 +852,7 @@ ul.btn li:last-child {
      font-size: 18px;
      font-weight: normal;
      border-bottom: #ddd solid 1px;
+     border-radius: 5px;
 }
 
 .main_form .contactus1 {
@@ -860,6 +867,7 @@ ul.btn li:last-child {
      font-size: 18px;
      font-weight: normal;
      border-bottom: #ddd solid 1px;
+     border-radius: 5px;
 }
 
 .main_form .send_btn {
@@ -873,6 +881,7 @@ ul.btn li:last-child {
      width: 100%;
      display: block;
      margin-top: 11px;
+     border-radius: 5px;
 }
 
 .main_form .send_btn:hover {
@@ -907,8 +916,10 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background-color: #1cbd32;
+     background-color: #cec436;
      color: #fff;
+     width: 50px;
+     height: 50px;
 }
 
 .bottom_form h3 {
@@ -962,6 +973,7 @@ ul.link li a {
      padding-bottom: 15px;
      padding-left: 25px;
      display: block;
+     
 }
 
 ul.link li a:hover {
@@ -987,32 +999,35 @@ ul.link li a::after {
 .bottom_form .enter {
      border: inherit;
      padding: 0px 19px;
-     width: 100%;
+     width: 120%;
      height: 53px;
      background: #fff;
      color: #000;
      font-size: 18px;
      font-weight: 600;
+     border-radius: 25px;
 }
 
 .sub_btn {
-     font-size: 17px;
+     font-size: 12px;
      transition: ease-in all 0.5s;
      background-color: #1cbd32;
      color: #fff;
      padding: 11px 0px;
-     max-width: 200px;
+     max-width: 160px;
      width: 100%;
      display: block;
      font-weight: 500;
      text-transform: uppercase;
      margin-top: 20px;
+     border-radius: 25px;
 }
 
 .sub_btn:hover {
      background-color: #fff;
      transition: ease-in all 0.5s;
      color: #000;
+    
 }
 
 .copyright {
