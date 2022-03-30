@@ -493,6 +493,7 @@ ul.btn li:last-child {
      z-index: 9999;
      position: relative;
      font-weight: 500;
+     border-radius: 5px;
 }
 
 .read_more:hover {
